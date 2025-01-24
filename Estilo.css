@@ -1,0 +1,383 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+#Cabecalho{
+    border: 3px solid white;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    background-color:rgb(0, 8, 68);
+}
+#titulo{
+    margin-top: 0.5%;
+    color: white;
+    font-size: 12px;
+    margin-right: 7%;
+}
+span{
+    color: rgb(24, 196, 166);
+    font-size: 12px;
+}
+#Pesquisa{
+    background-color:white;
+}
+#Menu
+{
+    background-color:rgb(242, 242, 242);
+}
+#Opcoes{
+    color: white;
+}
+.dp-menu{
+    text-align: left;
+    font-family: 'Fire Sans Condensed',sans-serif ;
+}
+.dp-menu ul{
+list-style-type: none;
+padding: 0%;
+font-weight:bold;
+}
+.dp-menu ul{
+background-color: rgb(242, 242, 242);
+}
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+    margin-left: 4%;
+}
+.dp-menu ul li a{
+    color:rgb(0, 30, 146) ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.dp-menu ul li a:hover{
+    color:rgb(24, 196, 166); 
+}
+.dp-menu ul ul{
+    display: none;
+    position: absolute;
+    left:0;
+    text-align: left;
+}
+.dp-menu ul li:hover ul{
+    display: block;
+    background-color: rgb(255, 255, 255); 
+    border: 1px;
+}
+.dp-menu ul ul li a{
+    display: block;
+    opacity: 100%;
+    
+}
+.PesquisaSuspenso{
+    border: 0px solid white;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    background-color: transparent;
+    position: relative; 
+    width: 100%; height: 200px; background-image: url("https://caoapecasonline.com.br/imagens/banners/b_0000078.png?1687659592");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    opacity: 60%;
+}
+#lang{
+    width: 180px;
+    height: 40px;
+    margin-top: 80px;
+    margin-right: 10px;
+    padding: 0%;
+    border-radius: 30px;
+}
+
+#imagem{
+    width: 100%;
+    height: 200px;
+    opacity : 0.5;
+  
+}
+#botaopesquisar{
+    background-color: rgb(0, 30, 146) ;
+    color: white;
+    width: 8%;
+    height: 20%;
+    border-radius: 12%;
+    opacity: 90%;
+}
+#botaopesquisar:hover{
+    background-color: rgb(24, 196, 166) ;
+}
+.Tabinfo{
+    width: 80%;
+    text-align: center;
+    margin-left:9%;
+    border: 1px;
+    
+}
+#titulopro{
+    margin-left: 3%;
+}
+#linhapro{
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+}
+.container{
+    position: relative;
+    padding: 15px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.gallery-wrapper{
+    overflow-x: auto;
+}
+.gallery
+{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.arrow-left, arrow-right{
+    position: absolute;
+    left: 0;
+    right: auto;
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+    border: none;
+    background:rgb(24, 196, 166) ;
+}
+.arrow-right{
+    left: auto;
+    right: 0;
+    background:rgb(24, 196, 166) ;
+}
+.ManuImg{
+margin-top: 8%;
+text-align: center;
+}
+
+.Mensagem{
+    text-align: center;
+}
+#Rodape{
+    border: 3px solid white;
+    width: 100%;
+    height: 600px;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 0%;
+    background-color:rgb(0, 8, 68);
+    background-repeat: no-repeat;
+    background-position: 10%;
+
+}
+.Tabrodape{
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 15%;
+    width: 70%;
+    color: white;
+    vertical-align: top;
+}
+#iMGRod{
+    width: 30%;
+   
+}
+
+#linkrod{
+    margin-top: 0.5%;
+    color: silver;
+    margin-right: 7%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#linkrod:hover{
+    text-decoration: underline silver;
+}
+#Linhaverde{
+    width: 82%;
+    margin-left: 9%;
+    border-top: 0.1px solid rgb(24, 196, 166);
+}
+#infoloja{
+    width: 82%;
+    color: white;
+    margin-left: 9%;
+    text-align: center  ;
+
+}
+#infoCopy{
+    width: 100%;
+    color: white;
+    margin-left: 0%;
+    text-align: left;
+}
+#tabinfocopy{
+   margin-left: 9%;
+   
+   width: 82%;
+}
+
+#infoCopy1{
+    width: 100%;
+    color: white;
+    margin-left: 0
+}
+
+@media screen and (max-width: 768px) {
+
+    #Cabecalho{
+        border: 3px solid white;
+        width: 50em;
+        height: 30px;
+        text-align: right;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin: 0em 0em;
+        background-color:rgb(0, 8, 68);
+    }
+
+    #Rodape{
+        border: 3px solid white;
+        width: 50em;
+        height: 750px;
+        text-align: right;
+        margin-top: 5%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin: 0em 0em;
+        background-color:rgb(255, 8, 68);
+        background-repeat: no-repeat;
+        background-position: 10%;
+    
+    }
+    .Tabrodape{
+        margin-top: 5%;
+        text-align: left;
+        margin-left: 15%;
+        width: 70%;
+        color: white;
+        vertical-align: top;
+    }
+    #iMGRod{
+        width: 30%;
+       
+    }
+    
+    #linkrod{
+        margin-top: 0.5%;
+        color: silver;
+        margin-right: 7%;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #linkrod:hover{
+        text-decoration: underline silver;
+    }
+    #Linhaverde{
+        width: 82%;
+        margin-left: 9%;
+        border-top: 0.1px solid rgb(24, 196, 166);
+    }
+    #infoloja{
+        width: 82%;
+        color: white;
+        margin-left: 9%;
+        text-align: center  ;
+    
+    }
+    #infoCopy{
+        width: 100%;
+        color: white;
+        margin-left: 0%;
+        text-align: left;
+    }
+    #tabinfocopy{
+       margin-left: 9%;
+       
+       width: 82%;
+    }
+    
+    #infoCopy1{
+        width: 100%;
+        color: white;
+        margin-left: 0
+    }
+    #Pesquisa{
+        background-color:white;
+    }
+    .dp-menu{
+        text-align: left;
+        font-family: 'Fire Sans Condensed',sans-serif ;
+        width: 50em;
+    }
+    .dp-menu ul{
+    list-style-type: none;
+    padding: 0%;
+    font-weight:bold;
+    }
+    .dp-menu ul{
+    background-color: rgb(242, 242, 242);
+    }
+    
+    .dp-menu ul li{
+        display: inline;
+        position: relative;
+        margin-left: 4%;
+    }
+    .dp-menu ul li a{
+        color:rgb(0, 30, 146) ;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+    }
+    .dp-menu ul li a:hover{
+        color:rgb(24, 196, 166); 
+    }
+    .dp-menu ul ul{
+        display: none;
+        position: absolute;
+        left:0;
+        text-align: left;
+    }
+    .dp-menu ul li:hover ul{
+        display: block;
+        background-color: rgb(255, 255, 255); 
+        border: 1px;
+    }
+    .dp-menu ul ul li a{
+        display: block;
+        opacity: 100%;
+        
+    }
+    .ManuImg{
+        margin-top: 8%;
+        text-align: center;
+        }
+        
+        .Mensagem{
+            text-align: center;
+        }
+    
+}
